@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>WOD Timer</title>
+<link rel="stylesheet" href="src/styles.min.css">
+<link rel="stylesheet" href="src/customs.css">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+  body { font-family: 'Inter', sans-serif; -webkit-tap-highlight-color: transparent; }
+  .timer-digit { font-variant-numeric: tabular-nums; }
+  ::-webkit-scrollbar { display: none; }
+  .screen { display: none; }
+  .screen.active { display: flex; }
+</style>
+<base target="_blank">
+</head>
+<body class="w-screen h-screen overflow-hidden text-white bg-black">
+    <div id="wrapper" class="flex flex-col w-screen h-screen text-center bg-transparent"></div>
+<script src="src/main.js"></script>
+</body>
+</html>
