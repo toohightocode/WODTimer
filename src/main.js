@@ -2,14 +2,11 @@ function drawMenu() {
     const body = document.getElementById('wrapper');
     body.classList.add('justify-center', 'gap-6', 'px-10')
     
-    
     // titolo
     const title = document.createElement('p');
-    title.className = 'flex justify-center mb-10 text-lg text-neutral-300 rubik';
+    title.className = 'flex justify-center mb-10 text-neutral-300 rubik text-3xl font-bold';
     title.innerText = 'Timer WOD';
     body.appendChild(title);
-
-    
 
     // AMRAP
     const btnAMRAP = document.createElement('button');
@@ -32,7 +29,7 @@ function drawMenu() {
     // TABATA
     const btnTABATA = document.createElement('button');
     btnTABATA.className = 'w-full p-4 font-bold uppercase bg-green-400 rounded-full';
-    btnTABATA.innerText = 'emom';
+    btnTABATA.innerText = 'tabata';
     body.appendChild(btnTABATA);
 
     // MIX
