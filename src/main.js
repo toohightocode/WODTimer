@@ -651,4 +651,4 @@ function drawMix() {
 }
 
 // init
-showEndScreen();
+drawMenu();
